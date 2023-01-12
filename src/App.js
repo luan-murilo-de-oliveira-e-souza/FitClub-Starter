@@ -1,8 +1,9 @@
-import './App.css';
+import "./App.css";
+import Programs from "./components/Programs/Programs";
 function App() {
   return (
     <div className="App">
-          <span style={{color: 'white'}}>Subscribe Zainkeepscode</span>
+      <Programs />
     </div>
   );
 }
